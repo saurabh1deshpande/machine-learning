@@ -52,12 +52,6 @@
         "meta": "NLP"
     },
     {
-        "id": 10,
-        "parent": 1,
-        "name": "Medicine",
-        "meta": "MEDICINE"
-    },
-    {
         "id": 11,
         "parent": 1,
         "name": "Other",
