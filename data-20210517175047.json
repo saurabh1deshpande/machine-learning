@@ -1,0 +1,689 @@
+[
+    {
+        "id": 1,
+        "name": "irl"
+    },
+    {
+        "id": 2,
+        "name": "Astronomy",
+        "parent": 1,
+        "meta": "ASTRONOMY"
+    },
+    {
+        "id": 3,
+        "parent": 1,
+        "name": "Autonomous Vehicle",
+        "meta": "AUTONOMOUS_VEHICALS"
+    },
+    {
+        "id": 4,
+        "parent": 1,
+        "name": "Human Activity Prediction",
+        "meta": "HUMAN_ACTIVITTY_PREDICTION"
+    },
+    {
+        "id": 5,
+        "parent": 1,
+        "name": "Human Behavior Understanding",
+        "meta": "HUMAN_BEHVIOR_UNDERSTANDING"
+    },
+    {
+        "id": 6,
+        "parent": 1,
+        "name": "Human Intent Recognition",
+        "meta": "HUMAN_INTENT_RECOGNITION"
+    },
+    {
+        "id": 7,
+        "parent": 1,
+        "name": "Human Vehicle Driving Analysis",
+        "meta": "HUMAN_VEHICAL_DRIVING_ANALYSIS"
+    },
+    {
+        "id": 8,
+        "parent": 1,
+        "name": "Medicine",
+        "meta": "MEDICINE"
+    },
+    {
+        "id": 9,
+        "parent": 1,
+        "name": "NLP",
+        "meta": "NLP"
+    },
+    {
+        "id": 10,
+        "parent": 1,
+        "name": "Medicine",
+        "meta": "MEDICINE"
+    },
+    {
+        "id": 11,
+        "parent": 1,
+        "name": "Other",
+        "meta": "OTHER"
+    },
+    {
+        "id": 12,
+        "parent": 1,
+        "name": "Pedestrian Trajectory Prediction",
+        "meta": "PEDESTRIAN_TRAJECTORY_PREDICTION"
+    },
+    {
+        "id": 13,
+        "parent": 1,
+        "name": "Robotics",
+        "meta": "ROBOTICS"
+    },
+    {
+        "id": 14,
+        "parent": 1,
+        "name": "Sports",
+        "meta": "SPORT"
+    },
+    {
+        "id": 15,
+        "parent": 7,
+        "name": "Maximum Entropy"
+    },
+    {
+        "id": 16,
+        "parent": 15,
+        "name": null
+    },
+    {
+        "id": 17,
+        "parent": 5,
+        "name": "Maximum Likelyhood"
+    },
+    {
+        "id": 18,
+        "parent": 17,
+        "name": null
+    },
+    {
+        "id": 19,
+        "parent": 7,
+        "name": "Not Applicable"
+    },
+    {
+        "id": 20,
+        "parent": 19,
+        "name": null
+    },
+    {
+        "id": 21,
+        "parent": 3,
+        "name": "Other"
+    },
+    {
+        "id": 22,
+        "parent": 21,
+        "name": null
+    },
+    {
+        "id": 23,
+        "parent": 3,
+        "name": "Maximum Entropy"
+    },
+    {
+        "id": 24,
+        "parent": 23,
+        "name": null
+    },
+    {
+        "id": 25,
+        "parent": 12,
+        "name": "Relative Entropy"
+    },
+    {
+        "id": 26,
+        "parent": 25,
+        "name": null
+    },
+    {
+        "id": 27,
+        "parent": 5,
+        "name": "Other"
+    },
+    {
+        "id": 28,
+        "parent": 27,
+        "name": null
+    },
+    {
+        "id": 29,
+        "parent": 3,
+        "name": "Logistic Regression"
+    },
+    {
+        "id": 30,
+        "parent": 29,
+        "name": null
+    },
+    {
+        "id": 31,
+        "parent": 5,
+        "name": "Not Applicable"
+    },
+    {
+        "id": 32,
+        "parent": 31,
+        "name": null
+    },
+    {
+        "id": 33,
+        "parent": 5,
+        "name": "Bayesian"
+    },
+    {
+        "id": 34,
+        "parent": 33,
+        "name": null
+    },
+    {
+        "id": 35,
+        "parent": 8,
+        "name": "Bayesian"
+    },
+    {
+        "id": 36,
+        "parent": 35,
+        "name": null
+    },
+    {
+        "id": 37,
+        "parent": 19,
+        "name": null
+    },
+    {
+        "id": 38,
+        "parent": 23,
+        "name": null
+    },
+    {
+        "id": 39,
+        "parent": 11,
+        "name": "Guided Cost Learning IRL"
+    },
+    {
+        "id": 40,
+        "parent": 39,
+        "name": null
+    },
+    {
+        "id": 41,
+        "parent": 31,
+        "name": null
+    },
+    {
+        "id": 42,
+        "parent": 9,
+        "name": "Maximum Entropy Deep IRL"
+    },
+    {
+        "id": 43,
+        "parent": 42,
+        "name": null
+    },
+    {
+        "id": 44,
+        "parent": 23,
+        "name": null
+    },
+    {
+        "id": 45,
+        "parent": 7,
+        "name": "Probabilistic"
+    },
+    {
+        "id": 46,
+        "parent": 45,
+        "name": null
+    },
+    {
+        "id": 47,
+        "parent": 11,
+        "name": "Maximum Entropy"
+    },
+    {
+        "id": 48,
+        "parent": 47,
+        "name": null
+    },
+    {
+        "id": 49,
+        "parent": 12,
+        "name": "Not Applicable"
+    },
+    {
+        "id": 50,
+        "parent": 49,
+        "name": null
+    },
+    {
+        "id": 51,
+        "parent": 3,
+        "name": "Maximum Margin"
+    },
+    {
+        "id": 52,
+        "parent": 51,
+        "name": null
+    },
+    {
+        "id": 53,
+        "parent": 11,
+        "name": "Generative "
+    },
+    {
+        "id": 54,
+        "parent": 53,
+        "name": null
+    },
+    {
+        "id": 55,
+        "parent": 8,
+        "name": "Other"
+    },
+    {
+        "id": 56,
+        "parent": 55,
+        "name": null
+    },
+    {
+        "id": 57,
+        "parent": 3,
+        "name": "Adveserial"
+    },
+    {
+        "id": 58,
+        "parent": 57,
+        "name": null
+    },
+    {
+        "id": 59,
+        "parent": 19,
+        "name": null
+    },
+    {
+        "id": 60,
+        "parent": 19,
+        "name": null
+    },
+    {
+        "id": 61,
+        "parent": 11,
+        "name": "Not Applicable"
+    },
+    {
+        "id": 62,
+        "parent": 61,
+        "name": null
+    },
+    {
+        "id": 63,
+        "parent": 4,
+        "name": "Not Applicable"
+    },
+    {
+        "id": 64,
+        "parent": 63,
+        "name": null
+    },
+    {
+        "id": 65,
+        "parent": 47,
+        "name": null
+    },
+    {
+        "id": 66,
+        "parent": 31,
+        "name": null
+    },
+    {
+        "id": 67,
+        "parent": 13,
+        "name": "Maximum Entropy"
+    },
+    {
+        "id": 68,
+        "parent": 67,
+        "name": null
+    },
+    {
+        "id": 69,
+        "parent": 15,
+        "name": null
+    },
+    {
+        "id": 70,
+        "parent": 35,
+        "name": null
+    },
+    {
+        "id": 71,
+        "parent": 14,
+        "name": "Maximum Entropy"
+    },
+    {
+        "id": 72,
+        "parent": 71,
+        "name": null
+    },
+    {
+        "id": 73,
+        "parent": 11,
+        "name": "Adveserial"
+    },
+    {
+        "id": 74,
+        "parent": 73,
+        "name": null
+    },
+    {
+        "id": 75,
+        "parent": 67,
+        "name": null
+    },
+    {
+        "id": 76,
+        "parent": 11,
+        "name": "Linear Programming"
+    },
+    {
+        "id": 77,
+        "parent": 76,
+        "name": null
+    },
+    {
+        "id": 78,
+        "parent": 27,
+        "name": null
+    },
+    {
+        "id": 79,
+        "parent": 23,
+        "name": null
+    },
+    {
+        "id": 80,
+        "parent": 13,
+        "name": "Maximum Entropy Deep IRL"
+    },
+    {
+        "id": 81,
+        "parent": 80,
+        "name": null
+    },
+    {
+        "id": 82,
+        "parent": 12,
+        "name": "Maximum Entropy Deep IRL"
+    },
+    {
+        "id": 83,
+        "parent": 82,
+        "name": null
+    },
+    {
+        "id": 84,
+        "parent": 23,
+        "name": null
+    },
+    {
+        "id": 85,
+        "parent": 13,
+        "name": "Adveserial"
+    },
+    {
+        "id": 86,
+        "parent": 85,
+        "name": null
+    },
+    {
+        "id": 87,
+        "parent": 85,
+        "name": null
+    },
+    {
+        "id": 88,
+        "parent": 13,
+        "name": "Bayesian"
+    },
+    {
+        "id": 89,
+        "parent": 88,
+        "name": null
+    },
+    {
+        "id": 90,
+        "parent": 12,
+        "name": "Maximum Entropy"
+    },
+    {
+        "id": 91,
+        "parent": 90,
+        "name": null
+    },
+    {
+        "id": 92,
+        "parent": 5,
+        "name": "Maximum Entropy Deep IRL"
+    },
+    {
+        "id": 93,
+        "parent": 92,
+        "name": null
+    },
+    {
+        "id": 94,
+        "parent": 5,
+        "name": "Linear Programming"
+    },
+    {
+        "id": 95,
+        "parent": 94,
+        "name": null
+    },
+    {
+        "id": 96,
+        "parent": 23,
+        "name": null
+    },
+    {
+        "id": 97,
+        "parent": 49,
+        "name": null
+    },
+    {
+        "id": 98,
+        "parent": 15,
+        "name": null
+    },
+    {
+        "id": 99,
+        "parent": 82,
+        "name": null
+    },
+    {
+        "id": 100,
+        "parent": 6,
+        "name": "Maximum Likelyhood"
+    },
+    {
+        "id": 101,
+        "parent": 100,
+        "name": null
+    },
+    {
+        "id": 102,
+        "parent": 3,
+        "name": "Maximum Entropy Deep IRL"
+    },
+    {
+        "id": 103,
+        "parent": 102,
+        "name": null
+    },
+    {
+        "id": 104,
+        "parent": 27,
+        "name": null
+    },
+    {
+        "id": 105,
+        "parent": 23,
+        "name": null
+    },
+    {
+        "id": 106,
+        "parent": 5,
+        "name": "Generative Adveserial"
+    },
+    {
+        "id": 107,
+        "parent": 106,
+        "name": null
+    },
+    {
+        "id": 108,
+        "parent": 63,
+        "name": null
+    },
+    {
+        "id": 109,
+        "parent": 9,
+        "name": "Bayesian"
+    },
+    {
+        "id": 110,
+        "parent": 109,
+        "name": null
+    },
+    {
+        "id": 111,
+        "parent": 63,
+        "name": null
+    },
+    {
+        "id": 112,
+        "parent": 67,
+        "name": null
+    },
+    {
+        "id": 113,
+        "parent": 13,
+        "name": "Other"
+    },
+    {
+        "id": 114,
+        "parent": 113,
+        "name": null
+    },
+    {
+        "id": 115,
+        "parent": 39,
+        "name": null
+    },
+    {
+        "id": 116,
+        "parent": 31,
+        "name": null
+    },
+    {
+        "id": 117,
+        "parent": 49,
+        "name": null
+    },
+    {
+        "id": 118,
+        "parent": 2,
+        "name": "Maximum Causal Entropy"
+    },
+    {
+        "id": 119,
+        "parent": 118,
+        "name": null
+    },
+    {
+        "id": 120,
+        "parent": 113,
+        "name": null
+    },
+    {
+        "id": 121,
+        "parent": 27,
+        "name": null
+    },
+    {
+        "id": 122,
+        "parent": 31,
+        "name": null
+    },
+    {
+        "id": 123,
+        "parent": 9,
+        "name": "Maximum Entropy"
+    },
+    {
+        "id": 124,
+        "parent": 123,
+        "name": null
+    },
+    {
+        "id": 125,
+        "parent": 9,
+        "name": "Other"
+    },
+    {
+        "id": 126,
+        "parent": 125,
+        "name": null
+    },
+    {
+        "id": 127,
+        "parent": 94,
+        "name": null
+    },
+    {
+        "id": 128,
+        "parent": 125,
+        "name": null
+    },
+    {
+        "id": 129,
+        "parent": 12,
+        "name": "Maximum Causal Entropy"
+    },
+    {
+        "id": 130,
+        "parent": 129,
+        "name": null
+    },
+    {
+        "id": 131,
+        "parent": 47,
+        "name": null
+    },
+    {
+        "id": 132,
+        "parent": 6,
+        "name": "Maximum Causal Entropy"
+    },
+    {
+        "id": 133,
+        "parent": 132,
+        "name": null
+    },
+    {
+        "id": 134,
+        "parent": 5,
+        "name": "Adveserial"
+    },
+    {
+        "id": 135,
+        "parent": 134,
+        "name": null
+    }
+]
